@@ -3,6 +3,11 @@ node-gracenote
 
 A node.js wrapper for the Gracenote API - https://developer.gracenote.com
 
+## Installation
+
+```
+npm install ddanninger/node-gracenote
+```
 
 
 ## Register
