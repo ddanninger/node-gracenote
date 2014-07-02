@@ -3,7 +3,7 @@ node-gracenote
 
 A node.js wrapper for the Gracenote API - https://developer.gracenote.com
 
-# Functions
+
 
 ## Register
 
@@ -44,7 +44,7 @@ api.searchArtist("Kings of Leon", function(result) {
 });
 ```
 
-h2. Search for Album
+## Search for Album
 
 ```
 var Gracenote = require("./lib/Gracenote.js");
