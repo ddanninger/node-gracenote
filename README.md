@@ -3,9 +3,9 @@ node-gracenote
 
 A node.js wrapper for the Gracenote API - https://developer.gracenote.com
 
-h1. Functions
+# Functions
 
-h2. Register
+## Register
 
 ```
 var Gracenote = require("./lib/Gracenote.js");
@@ -18,7 +18,7 @@ api.register(function(uid) {
 })`;
 ```
 
-h2. Search For Track
+## Search For Track
 
 ```
 var Gracenote = require("./lib/Gracenote.js");
@@ -31,7 +31,7 @@ api.searchTrack("Kings of Leon", "Only by the Night", "Sex on fire", function(re
 });
 ```
 
-h2. Search for Artist
+## Search for Artist
 
 ```
 var Gracenote = require("./lib/Gracenote.js");
