@@ -1,6 +1,6 @@
 {
   "name": "node-gracenote",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A node.js wrapper for the Gracenote API - https://developer.gracenote.com",
   "keywords": [
   	"gracenote"

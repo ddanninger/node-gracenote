@@ -9,6 +9,7 @@ A node.js wrapper for the Gracenote API - https://developer.gracenote.com
 npm install ddanninger/node-gracenote
 ```
 
+
 ## Gracenote Options
 
 Request defaults can be sent as an extra parameter to the constructor.
@@ -81,3 +82,7 @@ api.searchAlbum("Kings of Leon", "Only by the Night", function(err, result) {
 ## Config options
 
 `matchMode`- can be either `Gracenote.BEST_MATCH_ONLY`or `Gracenote.ALL_RESULTS`(default)
+
+`setExtended(str)` - let you change the extended data from gracenote - default : COVER,REVIEW,ARTIST_BIOGRAPHY,ARTIST_IMAGE,ARTIST_OET,MOOD,TEMPO
+`setCoverSize(str)` - let you change the cover size - default: MEDIUM
+`setLanguage(iso)` - pass a language parameter - default: null
