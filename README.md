@@ -59,7 +59,7 @@ var clientId = "XXX";
 var clientTag = "YYY";
 var userId = "ZZZ";
 var api = new Gracenote(clientId,clientTag,userId);
-api.searchArtist("Kings of Leon", function(result) {
+api.searchArtist("Kings of Leon", function(err, result) {
 	// Search Result as array
 });
 ```
