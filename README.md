@@ -1,7 +1,7 @@
 node-gracenote
 ==============
 
-A node.js wrapper for the Gracenote API - https://developer.gracenote.com
+A node.js wrapper for the Gracenote API - https://developer.gracenote.com/web-api
 
 ## Installation
 
