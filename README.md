@@ -6,7 +6,7 @@ A node.js wrapper for the Gracenote API - https://developer.gracenote.com/web-ap
 ## Installation
 
 ```
-npm install ddanninger/node-gracenote
+npm install node-gracenote
 ```
 
 
