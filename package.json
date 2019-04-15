@@ -1,12 +1,12 @@
 {
   "name": "node-gracenote",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A node.js wrapper for the Gracenote API - https://developer.gracenote.com",
   "keywords": [
   	"gracenote"
   ],
   "author": "Dominik Danninger <ddanninger@gmail.com>",
-  "main": "./lib/Gracenote",
+  "main": "./lib/Gracenote.js",
   "dependencies": {
     "memory-cache": "0.0.5",
     "request": "^2.36.0",
